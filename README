@@ -1,0 +1,10 @@
+RCFC in Vehicle Routing Problem with Heterogeneous Time Windows
+
+Build:
+	mkdir build
+	cd build
+	cmake ..
+	make -j
+
+Call binary with:
+	./vrp [path to instance] -p i [optional - i in [0 (no prop), 1 (RCFC-prop), 2 (exact)]] -s i [optional - sets seed to  i >= 0]
